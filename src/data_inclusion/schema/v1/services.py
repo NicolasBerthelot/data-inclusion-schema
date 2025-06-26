@@ -187,6 +187,7 @@ class Service(BaseModel):
                 | common.CodeRegion
                 | common.CodePays
                 | Literal["france"]
+                | Literal["99100"]  # Code pays INSEE pour la France
             ]
         ],
         Field(
